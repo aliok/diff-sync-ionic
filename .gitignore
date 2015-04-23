@@ -1,0 +1,12 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+# generated stuff
+node_modules/
+platforms/
+plugins/
+hooks
+www/lib
+
+# IntelliJ Idea files
+.idea
