@@ -14,6 +14,12 @@ AeroGear.js provides a client library to interact with the server, using both th
 This demo will utilize the JSON Patch part of the library.
 
 
+## Demo
+
+![http://img.youtube.com/vi/MmSd_5pFP3E/0.jpg](https://www.youtube.com/upload_thumbnail?v=MmSd_5pFP3E&t=hqdefault&ts=1429908954410)
+
+See the demo video on [Youtube](https://www.youtube.com/upload_thumbnail?v=MmSd_5pFP3E&t=hqdefault&ts=1429908954410).
+
 ## Working Code Example
 
 This demo is an [Ionic Framework]<http://ionicframework.com/> application.  Follow the directions below to get the example working.
@@ -107,6 +113,3 @@ You look like a cool Angular expert; you do the Angular best practices in your a
 Apache License 2.0.
 
 See LICENSE file for more.
-
-TODO: 
-* Youtube video
