@@ -17,9 +17,9 @@ This demo will utilize the JSON Patch part of the library.
 ## Demo
 
 <!--- See http://stackoverflow.com/questions/4279611/how-to-embed-a-video-into-github-readme-md --->
-![demo](http://img.youtube.com/vi/MmSd_5pFP3E/0.jpg)
+[![demo](http://img.youtube.com/vi/MmSd_5pFP3E/0.jpg)](https://youtu.be/MmSd_5pFP3E)
 
-See the demo video on [Youtube](https://www.youtube.com/upload_thumbnail?v=MmSd_5pFP3E&t=hqdefault&ts=1429908954410).
+See the demo video on [Youtube](https://youtu.be/MmSd_5pFP3E).
 
 ## Working Code Example
 
