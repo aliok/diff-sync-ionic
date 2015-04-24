@@ -23,8 +23,7 @@
     // by default sync server is assumed to run on "ws://localhost:7777/sync". this is good for `ionic serve`.
     // however, you cannot run the application on emulators or real devices using localhost. it is because localhost means the device itself in that case.
     // so, if you're running the sync server locally, you have to update following constant with your IP for `ionic run` or `ionic emulate`.
-    //SYNC_SERVER_URL: 'ws://localhost:7777/sync'
+    SYNC_SERVER_URL: 'ws://localhost:7777/sync'
     //SYNC_SERVER_URL : 'ws://xx.xx.xx.xx:7777/sync'
-    SYNC_SERVER_URL: 'ws://192.168.0.11:7777/sync'
   });
 })();
