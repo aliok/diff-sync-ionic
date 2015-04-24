@@ -86,7 +86,7 @@ For more information, see [Ionic's CLI documentation](http://ionicframework.com/
 
 This project is a port of official cookbook example of Aerogear Sync project. For the Ember based example, see <https://github.com/aerogear/aerogear-js-cookbook/tree/master/diff-sync-ember>.
 
-Yes, even the README.md file is copied from [there](https://github.com/aerogear/aerogear-js-cookbook/blob/master/diff-sync-ember/README.md).
+And, yes, even this README.md file is copied from [there](https://github.com/aerogear/aerogear-js-cookbook/blob/master/diff-sync-ember/README.md).
 
 Code here is only demonstration purposes. In a real world Angular project, you would have things separated.
 Also, you'd employ [promises](https://docs.angularjs.org/api/ng/service/$q) and prefer [*'controller-as syntax'*](https://github.com/johnpapa/angular-styleguide#style-y032).
