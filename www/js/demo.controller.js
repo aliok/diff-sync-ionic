@@ -19,9 +19,9 @@
 
   angular.module('diff-sync-demo').controller('DemoController', DemoController);
 
-  DemoController.$inject = ['$scope', '$ionicModal'];
+  DemoController.$inject = ['$scope', '$ionicModal', 'ENVIRONMENT'];
 
-  function DemoController($scope, $ionicModal) {
+  function DemoController($scope, $ionicModal, ENVIRONMENT) {
     var seedData = {
       id: '12345',
       clientId: uuid(),
@@ -75,7 +75,7 @@
       });
 
       syncClient = AeroGear.DiffSyncClient({
-        serverUrl: 'ws://localhost:7777/sync',
+        serverUrl: ENVIRONMENT.SYNC_SERVER_URL,
         onopen: function () {
           if (syncClientNeedsInit) {
             syncClient.addDocument(seedData);

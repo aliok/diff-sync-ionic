@@ -45,25 +45,33 @@ Once the Sync Server is running, do:
 * `ionic serve`
 * Visit your app at [http://localhost:8100](http://localhost:8100).
 
-### Running on iOS
+### Running on devices or emulators
+
+By default sync server is assumed to run on `ws://localhost:7777/sync`. This is good for `ionic serve`.
+However, you cannot run the application on emulators or real devices using `localhost`. it is because `localhost` means the device itself in that case.
+So, if you're running the sync server locally, you have to update following constant with your IP for `ionic run` or `ionic emulate` in **`www/js/environment.js`**:
+
+    SYNC_SERVER_URL: 'ws://xx.xx.xx.xx:7777/sync'
+
+#### Running on iOS
 
 Start up the Sync Server (see [here](https://github.com/aerogear/aerogear-sync-server#starting-the-json-patch-server)).
 
 Once the Sync Server is running, do:
 
-* `ionic add platform ios` (once)
+* `ionic platform add ios` (once)
 * Run on connected device or emulator : `ionic run ios`
 * Run on emulator : `ionic emulate ios` 
 
 For more information, see [Ionic's CLI documentation](http://ionicframework.com/docs/cli/run.html).
 
-### Running on Android
+#### Running on Android
 
 Start up the Sync Server (see [here](https://github.com/aerogear/aerogear-sync-server#starting-the-json-patch-server)).
 
 Once the Sync Server is running, do:
 
-* `ionic add platform android` (once)
+* `ionic platform add android` (once)
 * Run on connected device or emulator : `ionic run android`
 * Run on emulator : `ionic emulate android`
 
@@ -100,4 +108,7 @@ Apache License 2.0.
 
 See LICENSE file for more.
 
-TODO: Youtube video
+TODO: 
+* Youtube video
+* padding-right
+* rotate
