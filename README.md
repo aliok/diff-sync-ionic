@@ -110,5 +110,3 @@ See LICENSE file for more.
 
 TODO: 
 * Youtube video
-* padding-right
-* rotate

@@ -45,6 +45,15 @@
   <script src="js/environment.js"></script>
   <script src="js/demo.controller.js"></script>
 
+  <style>
+    .rotated90deg{
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      transform: rotate(90deg);
+    }
+  </style>
 
 </head>
 <body ng-app="diff-sync-demo">
@@ -55,14 +64,14 @@
             ng-click="showDelete = !showDelete; showReorder = false">
     </button>
     <h1 class="title">Diff-sync Ionic/Angular demo</h1>
-    <button class="button button-icon icon ion-arrow-swap" style="transform: rotate(90deg);"
+    <button class="button button-icon icon ion-arrow-swap rotated90deg"
             ng-click="showDelete = false; showReorder = !showReorder">
     </button>
   </ion-header-bar>
   <ion-content>
-    <div class="list card item-icon-right">
+    <div class="list card">
 
-      <div class="item item-avatar">
+      <div class="item item-avatar item-icon-right">
         <img src="http://upload.wikimedia.org/wikipedia/en/9/9b/Luke_Skywalker.png">
 
         <h2>{{doc.content.name}}</h2>
