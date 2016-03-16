@@ -1,5 +1,8 @@
 Differential Synchronization - Ionic/Angular Example
 ============================================
+# Introduction
+
+This demo is part of the Aerogear cookbook. See <https://github.com/aerogear/aerogear-js-cookbook#cookbook-apps> for more of them.
 
 ## Problem
 
@@ -23,7 +26,7 @@ See the demo video on [Youtube](https://youtu.be/MmSd_5pFP3E).
 
 ## Working Code Example
 
-This demo is an [Ionic Framework]<http://ionicframework.com/> application.  Follow the directions below to get the example working.
+This demo is an [Ionic Framework(<http://ionicframework.com) application.  Follow the directions below to get the example working.
 
 ### Prerequisites
 
